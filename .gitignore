@@ -1,0 +1,28 @@
+# Secrets and local config
+.env
+*.json.key
+key.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large generated data (keep the code, not the rasters)
+data/*
+!data/.gitkeep
+*.tif
+*.tiff
+*.geojson
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
