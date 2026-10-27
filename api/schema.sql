@@ -1,6 +1,6 @@
 -- Buildings: 3D footprints and structural metadata
 CREATE TABLE IF NOT EXISTS buildings (
-    id              SERIAL PRIMARY KEY,
+    id              SERIAL PRIMARY KEY, 
     building_code   TEXT UNIQUE NOT NULL,
     name            TEXT,
     height_m        DOUBLE PRECISION,
